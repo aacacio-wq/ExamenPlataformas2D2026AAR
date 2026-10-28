@@ -6,11 +6,11 @@ public class Mago : MonoBehaviour
     private Rigidbody2D _rb2D;
     private InputAction _moveAction;
     private InputAction _jumpActoin;
-
     private Vector2 _moveInput;
+
     [SerializeField] private float _movementSpeed = 5f;
     [SerializeField] private float _jumpSpeed = 5f;
-
+    
 
 
     void Awake()
